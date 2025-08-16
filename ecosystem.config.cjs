@@ -4,7 +4,7 @@ module.exports = {
         {
             name: "baileys-gw",
             cwd: "/var/www/server-whatsapp",
-            script: "./server.js",          // <— tu entrypoint (el que hace app.listen)
+            script: ".src/app.js",          // <— tu entrypoint (el que hace app.listen)
             exec_mode: "fork",              // 1 sola instancia; NO cluster para sesiones
             instances: 1,
             time: true,
